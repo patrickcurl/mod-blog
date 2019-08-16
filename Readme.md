@@ -2,7 +2,7 @@ This creates a medium-esque blog modelled after Canvas : https://cnvs.io but usi
 
 <p align="center">
     <br>
-    <h2>ModBlog a Modularized Blog Module</h2>
+    <center><h2>ModBlog a Modularized Blog Module</h2></center>
 </p>
 
 <p align="center">
