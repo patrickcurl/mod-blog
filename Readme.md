@@ -1,0 +1,3 @@
+This creates a medium-esque blog modelled after https://cnvs.io but using modules. 
+
+More info coming soon...
