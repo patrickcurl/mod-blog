@@ -1,0 +1,49 @@
+{
+    "name": "patrickcurl/mod-blog",
+    "description": "A Laravel publishing platform modularized via Nwidart/Modules based off of cnvs/canvas see: https://cnvs.io",
+    "type": "laravel-module",
+    "authors": [
+        {
+            "name": "Patrick Curl",
+            "email": "patrickwcurl@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/patrickcurl/mod-blog/issues",
+        "source": "https://github.com/patrickcurl/mod-blog"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Blog\\Providers\\BlogServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "require": {
+        "php": "^7.1.3",
+        "ext-json": "*",
+        "illuminate/support": "5.6.x|5.7.x|5.8.x",
+        "lorisleiva/laravel-actions": "^0.2.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "3.5.x|3.6.x|3.7.x|3.8.x",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Blog\\": ""
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
