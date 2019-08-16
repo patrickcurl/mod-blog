@@ -9,3 +9,5 @@ yarn-error.log
 Thumbs.db
 .phpunit.result.cache
 /.phpintel
+# yarn.lock
+# package-lock.json
