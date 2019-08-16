@@ -2,6 +2,8 @@
     "name": "patrickcurl/mod-blog",
     "description": "A Laravel publishing platform modularized via Nwidart/Modules based off of cnvs/canvas see: https://cnvs.io",
     "type": "laravel-module",
+    "keywords": ["cnvs", "canvas", "laravel", "publishing", "modules", "blog-module", "blogging", "blog-platform"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Patrick Curl",
