@@ -46,6 +46,9 @@
     "config": {
         "sort-packages": true
     },
+    "replaces": {
+        "cnvs/canvas": "4.2.6"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
